@@ -31,7 +31,7 @@ const questions = [
         ]
     },
     {
-        "question": "Uma forma de declarar variáveis no JS",
+        "question": "Uma forma de declarar variáveis no JS:",
         "answers": [
             {
                 "answer": "#var",
