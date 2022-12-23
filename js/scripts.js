@@ -232,6 +232,9 @@ function showSuccessMessage() {
     totalPoints.textContent = points;
     totalQuestions.textContent = questions.length;
 
+    //mensagem dependendo da pontuação
+    checkPoints(result);
+
     //resultado - porcentagem
     displayScore.textContent = result;
 }
@@ -251,6 +254,21 @@ restartBtn.addEventListener('click', function () {
     hideOrShowQuizz();
     init();
 })
+
+//check pontuação
+function checkPoints(result) { 
+    const congrats = document.querySelector('#score-container h2');
+
+    if (result > 99) {
+        congrats.textContent = 'Parabens!! Pontuação máxima!';
+    } else if (result > 50 && result < 99) {
+        congrats.textContent = 'Muito bom!! Acima de média';
+    } else if (result > 0) {
+        congrats.textContent = 'Regular... Abaixo da média';
+    } else {
+        congrats.textContent = 'Nenhum acerto... tente novamente!'
+    }
+}
 
 //inicialização do quizz
 init();
