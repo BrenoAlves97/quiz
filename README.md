@@ -1,6 +1,3 @@
-# quizz-programacao
-Projeto desenvolvido através do curso de Javascript pela plataforma da Udemy.
-
 # Quizz! - ![image](https://img.shields.io/badge/-concluido-green)
 
 - Responda perguntas relacionadas a programação. 
