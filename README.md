@@ -1,4 +1,4 @@
-# Quizz! - ![image](https://img.shields.io/badge/-concluido-green)
+# Quiz
 
 - Responda perguntas relacionadas a programação. 
 - Após responder todas perguntas será exibido o resultado de acordo com a pontuação acumulada.
